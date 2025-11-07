@@ -36,7 +36,7 @@ export const PROJECT = [
     title: "Todo App",
     description: "This is a clean and intuitive task management application built entirely with front-end technologies. The goal was to create a fast, user-friendly single-page application(SPA) to help manage daily tasks directly in the browser.", 
     technologies: ["HTML", "CSS", "JavaScript"],
-    image: "todo-app.png",
+    image: "todoApp.png",
     liveUrl: null,
     githubUrl: "https://ananyavishwakarma.github.io/Todo-App/",
     featured: true,

@@ -45,7 +45,7 @@ const ProjectCard = ({ project, index }) => {
               onClick={() => window.open(project.githubUrl, "_blank")}
             >
               <SiGithub className="button-icon" />
-              Source
+              Live Demo
             </Button>
           )}
         </div>
