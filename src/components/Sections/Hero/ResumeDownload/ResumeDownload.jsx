@@ -3,7 +3,7 @@ import { Button } from "../../../Common/Button/Button";
 
 export default function ResumeDownload({
   url = `${process.env.PUBLIC_URL}/Resume.pdf`,
-  filename = "Resume.pdf",
+  filename = "Ananya_Resume.pdf",
 }) {
   async function handleDownload(e) {
     e.preventDefault();
