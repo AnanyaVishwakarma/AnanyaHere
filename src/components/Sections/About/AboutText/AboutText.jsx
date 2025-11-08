@@ -2,24 +2,27 @@ import React from 'react';
 import './AboutText.css';
 
 const AboutText = () => {
-  return (
-    <div className="about-text animate-fade-in-left">
-      <p className="about-text__paragraph">
-        I'm a passionate full-stack developer with a love for creating beautiful, functional web applications. 
-        My journey in tech started with curiosity and has evolved into a career focused on building 
-        user-centric solutions that make a difference.
-      </p>
-      <p className="about-text__paragraph">
-        When I'm not coding, you'll find me exploring new technologies, contributing to open-source projects, 
-        or sharing knowledge with the developer community. I believe in the power of collaboration and 
-        continuous learning.
-      </p>
-      <p className="about-text__paragraph">
-        My approach to development combines technical expertise with creative problem-solving, 
-        ensuring that every project I work on delivers both exceptional functionality and outstanding user experience.
-      </p>
-    </div>
-  );
+return (
+  <div className="about-text animate-fade-in-left">
+    <p className="about-text__paragraph">
+      I'm a dedicated software developer with a strong passion for building efficient, scalable, and maintainable applications. 
+      My journey in software development began with a fascination for how technology solves real-world problems, 
+      and it has grown into a mission to create impactful digital solutions that empower users and businesses alike.
+    </p>
+    <p className="about-text__paragraph">
+      I enjoy working across the full stack — from crafting clean, responsive front-end interfaces 
+      to designing robust back-end architectures. I constantly strive to write clean, well-documented code 
+      and to stay updated with the latest technologies and development best practices.
+    </p>
+    <p className="about-text__paragraph">
+      Beyond coding, I’m passionate about software design principles, system optimization, 
+      and collaborating with teams to bring complex ideas to life. 
+      I believe in continuous improvement, open communication, and the power of teamwork to deliver 
+      reliable, high-quality software products.
+    </p>
+  </div>
+);
+
 };
 
 export default AboutText;
