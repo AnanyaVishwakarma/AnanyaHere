@@ -11,7 +11,6 @@ import { useScrollspy } from './Hooks/useScrollspy.js';
 import './App.css';
 
 const App = () => {
-  // add 'problem-solving' to the watched sections
   const activeSection = useScrollspy(['home', 'about', 'skills', 'problem-solving', 'projects', 'contact']);
 
   return (
@@ -21,7 +20,7 @@ const App = () => {
         <Hero />
         <About />
         <Skills />
-        <ProblemSolving />    {/* <-- new section */}
+        <ProblemSolving /> 
         <Projects />
         <Contact />
       </main>
