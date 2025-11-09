@@ -35,7 +35,7 @@
 
 .ps-sub {
   color: var(--text-secondary);
-  font-size: var(--font-size-base);
+  font-size: var(--font-size-lg);
   margin: 0;
 }
 
