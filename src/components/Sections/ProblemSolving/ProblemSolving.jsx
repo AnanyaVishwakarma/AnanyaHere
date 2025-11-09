@@ -1,10 +1,10 @@
 import React from 'react';
 import './ProblemSolving.css';
-import leetcodeScreenshot from '../../../../public/images/LeetProfileSS.png';
+
 
 const ProblemSolving = ({ username = 'ananya707', solvedCount = 130 }) => {
   return (
-    <section className="problem-solving" aria-labelledby="ps-heading">
+   <section id="problem-solving" className="problem-solving" aria-labelledby="ps-heading">
       <div className="ps-container">
         <header className="ps-header">
           <h2 id="ps-heading" className="ps-title">Problem Solving & Competitive Coding</h2>
@@ -17,7 +17,7 @@ const ProblemSolving = ({ username = 'ananya707', solvedCount = 130 }) => {
         <div className="ps-grid">
           <figure className="ps-card" aria-label="LeetCode profile screenshot">
             <img
-              src={leetcodeScreenshot}
+              src={`${process.env.PUBLIC_URL}/images/LeetProfileSS.png`}
               alt={`LeetCode profile screenshot showing ${solvedCount}+ solved problems`}
               className="ps-screenshot"
               loading="lazy"

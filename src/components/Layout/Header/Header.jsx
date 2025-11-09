@@ -14,9 +14,11 @@ const Header = ({ activeSection }) => {
     { id: "home", label: "Home" },
     { id: "about", label: "About" },
     { id: "skills", label: "Skills" },
+    { id: "problem-solving", label: "Problem Solving" }, // <-- added
     { id: "projects", label: "Projects" },
     { id: "contact", label: "Contact" },
   ];
+
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 50);
@@ -30,9 +32,11 @@ const Header = ({ activeSection }) => {
     scrollTo(sectionId);
     setIsMenuOpen(false);
   };
+
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
+
   return (
     <header className={`header ${isScrolled ? "header-scrolled" : ""}`}>
       <div className="header__container container">
@@ -64,6 +68,7 @@ const Header = ({ activeSection }) => {
             <span></span>
           </div>
         </button>
+
         <MobileMenu
           isOpen={isMenuOpen}
           navItems={navItems}
