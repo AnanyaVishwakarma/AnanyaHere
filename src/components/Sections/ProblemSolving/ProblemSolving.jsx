@@ -1,6 +1,6 @@
 import React from 'react';
 import './ProblemSolving.css';
-import '../../Common/SectionTitle/SectionTitle.jsx';
+import SectionTitle from '../../Common/SectionTitle/SectionTitle';
 
 
 const ProblemSolving = ({ username = 'ananya707', solvedCount = 130 }) => {
