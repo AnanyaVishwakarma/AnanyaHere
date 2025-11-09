@@ -1,7 +1,6 @@
 import React from 'react';
 import './ProblemSolving.css';
 import '../../Common/SectionTitle/SectionTitle.jsx';
-import SectionTitle from '../../Common/SectionTitle/SectionTitle.jsx';
 
 
 const ProblemSolving = ({ username = 'ananya707', solvedCount = 130 }) => {
@@ -9,8 +8,8 @@ const ProblemSolving = ({ username = 'ananya707', solvedCount = 130 }) => {
    <section id="problem-solving" className="problem-solving" aria-labelledby="ps-heading">
       <div className="ps-container">
         <header className="ps-header">
-          <SectionTitle>Problem Solving & Competitive Coding</SectionTitle> 
           <p className="ps-sub">
+            <SectionTitle level={2}>Problem Solving & Competitive Coding</SectionTitle>
             Strengthening algorithmic thinking through regular practice. Currently
             <span className="ps-highlight"> {solvedCount}+ problems</span> solved on LeetCode.
           </p>
